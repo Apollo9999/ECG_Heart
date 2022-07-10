@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "The Kids Mraker";
+  src: url("./styles/fonts/The\ Kids\ Mraker.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "The Kids Mraker";
+  src: url("./styles/fonts/Candy\ Beans.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "The Kids Mraker";
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}

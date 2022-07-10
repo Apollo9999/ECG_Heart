@@ -1,0 +1,158 @@
+@mixin flexBasic($direction, $align, $justify, $gap) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+  gap: $gap;
+}
+
+.mobile {
+  @include flexBasic(column, center, center, 20px);
+  padding: 40px;
+  height: 100%;
+}
+
+.app {
+  height: 100%;
+  @include flexBasic("", center, center, 60px);
+  padding: 60px 90px;
+  .column-one {
+    height: 100%;
+    @include flexBasic(column, center, "", 30px);
+    width: 20%;
+    .wallet-label {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      label {
+        font-family: cursive;
+        font-weight: 600;
+        position: relative;
+      }
+    }
+  }
+  .column-two {
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 50%;
+    #download-area {
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      flex: 1 1 100%;
+    }
+    .header {
+      background: #ffddb6;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      flex: 1 1 0%;
+      .header-label {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        .cat-image {
+          background: #fff;
+          height: 35px;
+          width: 35px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      .site-name {
+        font-family: cursive;
+        font-weight: 600;
+        font-size: 18px;
+        color: #adfeff;
+      }
+    }
+    .content-area {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #adfeff;
+      flex: 1 1 80%;
+      overflow: hidden;
+      box-shadow: 0px 4px 10px #adfeff;
+      .content {
+        display: flex;
+        gap: 4px;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 5px 10px;
+        overflow: auto;
+
+        img {
+          flex-grow: 1;
+        }
+      }
+    }
+  }
+  #button-area {
+    height: 20%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 25px;
+    position: relative;
+  }
+  .load-more {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+  }
+  .button {
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: -3px 0 #adfeff, 0 9px #adfeff;
+    font-family: "The Kids Mraker";
+    padding: 16px 40px;
+    height: max-content;
+    font-size: 24px;
+  }
+  .button:active {
+    transform: translate(-2px, 4px);
+  }
+  .rotate {
+    animation: rotate 1s infinite linear;
+  }
+}
+.connect:active {
+  transform: translate(-2px, 4px);
+}
+.success-note {
+  position: fixed;
+  width: 300px;
+  right: 0px;
+  top: 60px;
+  height: auto;
+  transition: width 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  &.hide {
+    width: 0px !important;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

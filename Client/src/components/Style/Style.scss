@@ -1,0 +1,85 @@
+@mixin component-styles($position, $top, $right, $bottom, $left) {
+  position: $position;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+  z-index: -1;
+}
+
+.component-1 {
+  @include component-styles(fixed, 15%, "", "", 10px);
+}
+
+.component-2 {
+  @include component-styles(fixed, 55%, "", "", 10%);
+}
+
+.component-3 {
+  @include component-styles(fixed, 80%, "", "", 50px);
+}
+
+.component-4 {
+  @include component-styles(fixed, "", "", 15%, 35%);
+}
+
+.component-5 {
+  @include component-styles(fixed, "", "", 1%, 40%);
+}
+
+.component-6 {
+  @include component-styles(fixed, "", "", 5%, 45%);
+}
+
+.component-7 {
+  @include component-styles(fixed, 5%, 8%, "", "");
+}
+
+.component-8 {
+  @include component-styles(fixed, 35%, 5%, "", "");
+}
+
+.component-9 {
+  @include component-styles(fixed, 55%, 5%, "", "");
+}
+
+.tip {
+  position: fixed;
+  bottom: 5%;
+  left: 20%;
+  cursor: pointer;
+}
+
+.eth-address {
+  position: fixed;
+  bottom: 5%;
+  left: 27%;
+  height: auto;
+  max-width: auto;
+  border: 1px solid #adfeff;
+  box-shadow: 0 4px 10px #adfeff;
+  background: #fff;
+  z-index: 1;
+}
+
+.contact {
+  @include component-styles(fixed, "", 3%, 3%, "");
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  .twitter {
+    display: flex;
+    gap: 10px;
+    label {
+      font-weight: 600;
+      font-family: cursive;
+      position: relative;
+      img {
+        position: absolute;
+        top: 2px;
+        left: 0;
+        z-index: -1;
+      }
+    }
+  }
+}
