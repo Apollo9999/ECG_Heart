@@ -12,7 +12,7 @@ A web dashboard using gamification & blockchain technology to incentivize positi
 project  objective for this hackathon is to design,develop and deploy a full operative and working web-application that rewards users sharing us their ECG images. What we hope to show is a simulation/demo of our software reading  the signals of an ECG that user shares and "minting" this data into a non-fungible token or NFT. 
 
 
-![alt image](https://github.com/drraghavendra/Nextron_ECG/blob/main/zil-heartbeat-nft-main/images/patient%20ECG%20details.png)
+![alt image](https://github.com/Apollo9999/NEXTRON-ECG_Heart/blob/main/zil-heartbeat-nft-main/images/patient%20ECG%20details.png)
 
 1)	Keep patient name and timestamp 
 2)	Change profile picture to an older woman
@@ -26,7 +26,7 @@ User mints their ECG data as NFT and sells it to doctors, researchers, or anyone
 
 
 As this data contains the heart rate/ECG data of an individual  more specifically, we will capture 640 images for each NFT, acting as a "proof of health" creating an exclusive token/point system that we can either use to ensure adherence of patients for doctors or create a similar "competitive/leaderboard".
-![alt image](https://github.com/drraghavendra/Nextron_ECG/blob/main/zil-heartbeat-nft-main/doc-img/nextron2.PNG)
+![alt image](https://github.com/Apollo9999/NEXTRON-ECG_Heart/blob/main/zil-heartbeat-nft-main/doc-img/nextron2.PNG)
 
 
 # Project working details 
