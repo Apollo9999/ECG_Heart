@@ -160,4 +160,3 @@ In the project directory, you can run: `npm start`
 
 
 
-Powerpoint presentation available here https://github.com/drraghavendra/Nextron_ECG/blob/main/NEXTRON.pptx
