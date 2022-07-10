@@ -23,8 +23,6 @@ project  objective for this hackathon is to design,develop and deploy a full ope
 User mints their ECG data as NFT and sells it to doctors, researchers, or anyone on our NexTron network
 
 
-
-
 As this data contains the heart rate/ECG data of an individual  more specifically, we will capture 640 images for each NFT, acting as a "proof of health" creating an exclusive token/point system that we can either use to ensure adherence of patients for doctors or create a similar "competitive/leaderboard".
 ![alt image](https://github.com/Apollo9999/NEXTRON-ECG_Heart/blob/main/zil-heartbeat-nft-main/doc-img/nextron2.PNG)
 
