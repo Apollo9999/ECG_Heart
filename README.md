@@ -2,6 +2,7 @@
 
 
 ![alt text](https://github.com/drraghavendra/Nextron_ECG/blob/main/zil-heartbeat-nft-main/doc-img/LOGO%20B2.jpg)
+
 # Project Overview
 A web dashboard using gamification & blockchain technology to incentivize positive heart health!
 - User's “mint” their ECG data to earn an exclusive non-fungible token named Heart NFT.
