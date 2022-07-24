@@ -26,6 +26,9 @@ User mints their ECG data as NFT and sells it to doctors, researchers, or anyone
 As this data contains the heart rate/ECG data of an individual  more specifically, we will capture 640 images for each NFT, acting as a "proof of health" creating an exclusive token/point system that we can either use to ensure adherence of patients for doctors or create a similar "competitive/leaderboard".
 ![alt image](https://github.com/Apollo9999/NEXTRON-ECG_Heart/blob/main/zil-heartbeat-nft-main/doc-img/nextron2.PNG)
 
+# Project Plan
+
+ https://docs.google.com/document/d/1wMZIxYWLr-VGn_uZZVRQN7Rf7gTomQiieNF8KhnGljk/edit
 
 # Project working details 
 
