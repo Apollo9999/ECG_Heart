@@ -28,7 +28,7 @@ As this data contains the heart rate/ECG data of an individual  more specificall
 
 # Project Plan
 
- https://docs.google.com/document/d/1wMZIxYWLr-VGn_uZZVRQN7Rf7gTomQiieNF8KhnGljk/edit
+ https://docs.google.com/document/d/1KmY1k-lIO7UPVB9P-MtCddIajTZvAss2/edit?usp=sharing&ouid=109918743931383302764&rtpof=true&sd=true
 
 # Project working details 
 
