@@ -1,0 +1,5 @@
+{
+    clientID: "8a5adedc-8ebe-4196-8405-65b47ce47135",
+    redirectUri: "http://localhost:3000",
+    scope: "openid wallet"
+  }
